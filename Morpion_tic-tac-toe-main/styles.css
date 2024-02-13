@@ -1,0 +1,69 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url(/Morpion_tic-tac-toe-main/richard-horvath-is8jWT-mvng-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #header {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h1{
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    #board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 15px;
+    }
+
+    .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: rgba(224, 224, 224, 0.314);
+    border: 3px solid  rgba(255, 255, 255, 0.685);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 64px;
+    font-family: 'Moirai One', system-ui;
+    }
+
+  
+
+    .cell:hover {
+      background-color: #e4e4e4a9;
+      border: 3px solid rgb(255, 255, 255);
+    }
+
+    #reset-button {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: rgba(224, 224, 224, 0.314);
+      border: 3px solid rgb(255, 255, 255);
+      color: white;
+      border-radius: 10px;
+      }
+
+    #reset-button:hover{
+      background-color: #e4e4e435;
+    }
+    
