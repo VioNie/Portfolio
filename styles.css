@@ -942,6 +942,7 @@ section {
     font-size: 4rem;
   }
   .main-title h2 .bg-text {
+    text-wrap: nowwrap;
     font-size: 4.5rem;
   }
 }
