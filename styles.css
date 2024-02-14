@@ -560,13 +560,7 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: #27AE92; 
 }
-.blogs-content{
-  overflow-y: scroll;
-  height: 93vh;
-  width: 74vw;
-  overflow-x: hidden;
-  padding-inline: 2vw;
-}
+
 
 .contact-content-con {
   display: flex;
