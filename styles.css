@@ -930,6 +930,16 @@ section {
   }
 }
 @media screen and (max-width: 1070px) {
+
+  .blogs {
+  
+  overflow-y: hidden;
+  overflow-x: hidden;
+ 
+  }
+  body{
+  overflow-y : scroll}
+  
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
