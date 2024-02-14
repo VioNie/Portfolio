@@ -527,7 +527,7 @@ section {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1vw;
+  width: 10px;
 }
 
 /* Track */
