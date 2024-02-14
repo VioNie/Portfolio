@@ -524,6 +524,12 @@ section {
   padding-bottom: 1rem;
 }
 
+.blogs-content{
+  overflow-y: scroll;
+  hieght: 93vh;
+  overflow-x: hidden;
+  padding-inline: 2vw;
+
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
