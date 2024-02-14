@@ -525,31 +525,27 @@ section {
   padding-bottom: 1rem;
 }
 
+/* width */
 ::-webkit-scrollbar {
- /*largeur de la scroll bar */
-  width: 20px;
+  width: 1vw;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px #AAAAAA; 
   border-radius: 10px;
-  /*angles en haut et en bas*/
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-/*rond a l'interieur de la srcoll bar + angles*/
-  background: red; 
+  background: #27AE60; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-/* couleur quand tu hover*/
-  background: #b30000; 
+  background: #27AE92; 
 }
-
 .blogs-content{
   overflow-y: scroll;
   height: 93vh;
