@@ -660,6 +660,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  background-color: #27AE60;
 }
 
 .main-btn {
