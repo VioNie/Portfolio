@@ -734,6 +734,7 @@ section {
   transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 6.3rem;
+  text-wrap: nowrap;
 }
 
 .about-container .left-about p {
@@ -942,7 +943,6 @@ section {
     font-size: 4rem;
   }
   .main-title h2 .bg-text {
-    text-wrap: nowwrap;
     font-size: 4.5rem;
   }
 }
