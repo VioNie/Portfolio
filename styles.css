@@ -935,6 +935,7 @@ section {
   
   overflow-y: hidden;
   overflow-x: hidden;
+  height: fit-content;
  
   }
   body{
