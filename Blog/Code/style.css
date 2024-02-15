@@ -34,7 +34,7 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    justify-content:start;
+    justify-content: flex-start;
     width: 100vw;
     height: 10vh;
     position: absolute;
@@ -68,6 +68,10 @@ a{
     line-height: 22px;
     letter-spacing: 0.44px;
     text-decoration: none;
+}
+
+.header a {
+    margin-inline : 2vw;
 }
 
 .content{
