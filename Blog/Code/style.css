@@ -32,7 +32,6 @@ body{
 }
 
 .header{
-    background-color: red;
     width: 100vw;
     height: 10vh;
     position: absolute;
@@ -47,6 +46,7 @@ body{
     right: 0%;
     height: 100vh;
     width: auto;
+    z-index:-1;
 }
 
 ul{
