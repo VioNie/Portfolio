@@ -37,8 +37,16 @@ body{
     margin-bottom: 58px;
     width: 100vw;
     height: 10vh;
+    position: absolute;
     top:0%;
     left:0%;
+}
+
+.image {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    height: 90vh;
 }
 
 ul{
