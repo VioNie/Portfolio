@@ -33,6 +33,7 @@ body{
 }
 
 .header{
+    background-color: red;
     margin-top: 36px;
     margin-bottom: 58px;
     width: 100vw;
