@@ -32,6 +32,9 @@ body{
 }
 
 .header{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
     width: 100vw;
     height: 10vh;
     position: absolute;
