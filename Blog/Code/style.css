@@ -64,15 +64,14 @@ a{
     color: #07965A;
     font-size: 22px;
     font-family: 'Poppins';
-    font-weight: 900;
+    font-weight: 600;
     line-height: 22px;
     letter-spacing: 0.44px;
     text-decoration: none;
-    text-shadow: 2px 2px 4px white;
 }
 
 .header a {
-    margin-right : 16vw;
+    margin-right : 6vw;
 }
 
 .content{
