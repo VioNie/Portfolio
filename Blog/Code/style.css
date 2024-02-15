@@ -7,9 +7,16 @@
 }
 
 body{
-    margin-left: 120px;
-    margin-right: 120px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: o;
+    background-image: url(steve-le-ug1Fj8zPntl-unsplash 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container
