@@ -17,8 +17,8 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 50%;
-    overflow-x: none;
-    overflow-y: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container
