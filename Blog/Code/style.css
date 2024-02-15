@@ -72,6 +72,10 @@ a{
     width: 100%;
 }
 
+.leftContent{
+    margin-left: 300px;
+}
+
 h1{
     color: black;
     font-size: 48px;
